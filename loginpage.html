@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Login KL University</h2>
+  
+<input id="user" placeholder="Username">
+<input id="pass" type="password" placeholder="Password">
+
+<button onclick="login()">Login</button>
+
+<p id="msg"></p>
+
+<script>
+function login() {
+    let u = document.getElementById("user").value;
+    let p = document.getElementById("pass").value;
+
+    if (u == "admin" && p == "1234")
+        document.getElementById("msg").innerText = "Login Success";
+    else
+        document.getElementById("msg").innerText = "Invalid Login";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background: lightgray;
+    padding: 20px;
+}
+.event-images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 24px;
+}
+.event-images img {
+    width: min(100%, 320px);
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+</style>
+</head>
+<body>
+
+<div class="nav">
+    <span>Event Management</span>
+    <span>Event motto</span>
+    <span> Event images</span>
+    <span>Event details</span>
+    <span>Event contact</span>
+    <span>Event location</span>
+    <span>Attendees</span>
+</div>
+
+<section class="event-images" aria-label="Event management photos">
+    <img src="em.jpeg" alt="Event management planning and coordination">
+    <img src="shaadi.jpeg" alt="Decorated wedding event venue">
+</section>
+
+</body>
+</html>

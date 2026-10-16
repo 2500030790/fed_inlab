@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.box {
+    background: lightblue;
+    padding: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box">Home</div>
+    <div class="box">About</div>
+    <div class="box">Services</div>
+    <div class="box">Contact</div>
+</div>
+
+</body>
+</html>
